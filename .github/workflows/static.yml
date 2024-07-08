@@ -40,7 +40,7 @@ jobs:
         id: folder # ← to reference the output of this step later
         run: |
           mkdir public
-          cp pacman_analysis.html public
+          cp index.html public
           echo "name=public" >> $GITHUB_OUTPUT
 
       - name: Setup Pages
