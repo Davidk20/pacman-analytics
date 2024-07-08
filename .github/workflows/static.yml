@@ -45,9 +45,9 @@ jobs:
 
       - name: Setup Pages
         id: pages # ← used in the deploy job (keep reading)
-        uses: actions/configure-pages@v2
+        uses: actions/configure-pages@v5
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-pages-artifact@v3
         with:
           path: ${{ steps.folder.outputs.name }}
