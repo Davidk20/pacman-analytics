@@ -34,7 +34,7 @@ jobs:
 
       - name: Export notebooks
         run: | 
-          jupyter nbconvert pacman_analysis.ipynb --execute --to html
+          jupyter nbconvert pacman_analysis.ipynb --to html
 
       - name: Prepare public folder
         id: folder # ← to reference the output of this step later

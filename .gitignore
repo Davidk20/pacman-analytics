@@ -1,3 +1,4 @@
 .vscode/
 .python-version
 pacman_results_reduced.csv
+.DS_Store
